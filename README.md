@@ -10,10 +10,10 @@ mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URI, {useMongoClient : true});
 
 MongooseModelObject.find({})
-  takes in a .limit and possible .skip
 
-Delete Crud is findByIdAndRemove()
 ```
+- Find takes in a .limit and possible .skip
+- Delete Crud is findByIdAndRemove()
 
 ## npm scripts
 ```
@@ -40,4 +40,3 @@ Delete Crud is findByIdAndRemove()
 
 ```
 - Update requires $.ajax and uses url method and data
-# code-fellows-code-challenge
